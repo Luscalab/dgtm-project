@@ -1,0 +1,1356 @@
+[
+  {
+    "node_id": "word_28608",
+    "node_type": "WordNode",
+    "word": "Ahá!",
+    "definition": "Interjeição de descoberta ou triunfo",
+    "semantic_signature": {
+      "emotion": "triunfo",
+      "intention": "revelar",
+      "tone": "jubiloso",
+      "intensity": 0.68
+    },
+    "categories": "emocao"
+  },
+  {
+    "node_id": "concept_emocao",
+    "node_type": "ConceptNode",
+    "name": "emocao",
+    "description": "Conceito abstrato de expressão emocional",
+    "category": "abstract",
+    "member_count": 42
+  },
+  {
+    "node_id": "context_dialogal",
+    "node_type": "ContextNode",
+    "context_type": "discourse",
+    "parameters": {
+      "formality": 2,
+      "interaction": "high"
+    },
+    "typical_use_count": 28
+  },
+  {
+    "node_id": "word_28612",
+    "node_type": "WordNode",
+    "word": "configurar",
+    "definition": "Ação de ajustar parâmetros ou opções",
+    "semantic_signature": {
+      "emotion": "neutralidade",
+      "intention": "orientar",
+      "tone": "neutro",
+      "intensity": 0.2
+    },
+    "categories": "diretivo"
+  },
+  {
+    "node_id": "frame_technical_explanation",
+    "node_type": "SemanticFrame",
+    "description": "Estrutura para explicações técnicas",
+    "participants": {
+      "agent": "expert",
+      "receiver": "learner",
+      "subject": "technical_concept"
+    },
+    "typical_phrases": [
+      "Primeiro, selecione a opção...",
+      "Para configurar, você precisa..."
+    ]
+  },
+  {
+    "node_id": "word_28609",
+    "node_type": "WordNode",
+    "word": "Alvíssaras!",
+    "definition": "Expressão de alegria por boa notícia",
+    "semantic_signature": {
+      "emotion": "júbilo",
+      "intention": "felicitar",
+      "tone": "festivo",
+      "intensity": 0.78
+    },
+    "categories": "emocao"
+  },
+  {
+    "node_id": "concept_interacao",
+    "node_type": "ConceptNode",
+    "name": "interacao",
+    "description": "Conceito de comunicação interpessoal",
+    "category": "social",
+    "member_count": 37
+  },
+  {
+    "node_id": "context_tecnico",
+    "node_type": "ContextNode",
+    "context_type": "domain",
+    "parameters": {
+      "complexity": "high",
+      "precision_required": true
+    },
+    "typical_use_count": 31
+  },
+  {
+    "node_id": "word_28614",
+    "node_type": "WordNode",
+    "word": "flake8",
+    "definition": "Ferramenta para análise estática de código",
+    "semantic_signature": {
+      "emotion": "rigor",
+      "intention": "padronizar",
+      "tone": "analítico",
+      "intensity": 0.8
+    },
+    "categories": "diretivo"
+  },
+  {
+    "node_id": "frame_social_greeting",
+    "node_type": "SemanticFrame",
+    "description": "Estrutura para cumprimentos sociais",
+    "participants": {
+      "initiator": "speaker",
+      "responder": "listener",
+      "setting": "social_context"
+    },
+    "typical_phrases": [
+      "Como vai você?",
+      "Bom te ver!",
+      "Oi, tudo bem?"
+    ]
+  },
+  {
+    "node_id": "word_28610",
+    "node_type": "WordNode",
+    "word": "Inacreditável",
+    "definition": "Expressão de espanto ou descrença",
+    "semantic_signature": {
+      "emotion": "surpresa",
+      "intention": "questionar",
+      "tone": "admirado",
+      "intensity": 0.75
+    },
+    "categories": "emocao"
+  },
+  {
+    "node_id": "concept_informacao",
+    "node_type": "ConceptNode",
+    "name": "informacao",
+    "description": "Conceito de transmissão de conhecimento",
+    "category": "cognitive",
+    "member_count": 29
+  },
+  {
+    "node_id": "context_formal",
+    "node_type": "ContextNode",
+    "context_type": "formality",
+    "parameters": {
+      "level": 5,
+      "audience": "professional"
+    },
+    "typical_use_count": 44
+  },
+  {
+    "node_id": "word_28616",
+    "node_type": "WordNode",
+    "word": "singleton",
+    "definition": "Padrão que garante uma única instância de classe",
+    "semantic_signature": {
+      "emotion": "controle",
+      "intention": "restringir",
+      "tone": "preciso",
+      "intensity": 0.8
+    },
+    "categories": "diretivo"
+  },
+  {
+    "node_id": "pattern_question_response",
+    "node_type": "ConversationPattern",
+    "description": "Padrão de pergunta e resposta",
+    "sequence": [
+      {
+        "speech_act": "question",
+        "semantic_role": "information_seeker"
+      },
+      {
+        "speech_act": "response",
+        "semantic_role": "information_provider"
+      }
+    ],
+    "variations": 3
+  },
+  {
+    "node_id": "word_28611",
+    "node_type": "WordNode",
+    "word": "Né?",
+    "definition": "Partícula confirmatória informal",
+    "semantic_signature": {
+      "emotion": "expectativa",
+      "intention": "validar",
+      "tone": "coloquial",
+      "intensity": 0.25
+    },
+    "categories": "interacao"
+  },
+  {
+    "node_id": "concept_estrutural",
+    "node_type": "ConceptNode",
+    "name": "estrutural",
+    "description": "Elementos organizacionais do discurso",
+    "category": "linguistic",
+    "member_count": 18
+  },
+  {
+    "node_id": "context_academico",
+    "node_type": "ContextNode",
+    "context_type": "domain",
+    "parameters": {
+      "rigor": "high",
+      "citation_required": true
+    },
+    "typical_use_count": 26
+  },
+  {
+    "node_id": "word_28620",
+    "node_type": "WordNode",
+    "word": "variável",
+    "definition": "Armazenamento nomeado para dados em um programa",
+    "semantic_signature": {
+      "emotion": "neutralidade",
+      "intention": "explicar",
+      "tone": "técnico",
+      "intensity": 0.2
+    },
+    "categories": "informacao"
+  },
+  {
+    "node_id": "frame_problem_solving",
+    "node_type": "SemanticFrame",
+    "description": "Estrutura para resolução de problemas",
+    "participants": {
+      "problem_owner": "user",
+      "solver": "assistant",
+      "problem": "issue_description"
+    },
+    "typical_phrases": [
+      "Qual o problema?",
+      "Tente esta solução...",
+      "Isso resolveu?"
+    ]
+  },
+  {
+    "node_id": "word_28613",
+    "node_type": "WordNode",
+    "word": "Todavia",
+    "definition": "Conjunção adversativa formal",
+    "semantic_signature": {
+      "emotion": "neutralidade",
+      "intention": "refutar",
+      "tone": "erudito",
+      "intensity": 0.1
+    },
+    "categories": "estrutural"
+  },
+  {
+    "node_id": "concept_diretivo",
+    "node_type": "ConceptNode",
+    "name": "diretivo",
+    "description": "Comunicação com propósito de orientação",
+    "category": "action",
+    "member_count": 33
+  },
+  {
+    "node_id": "context_informal",
+    "node_type": "ContextNode",
+    "context_type": "formality",
+    "parameters": {
+      "level": 1,
+      "audience": "friends"
+    },
+    "typical_use_count": 39
+  },
+  {
+    "node_id": "word_28621",
+    "node_type": "WordNode",
+    "word": "EAFP",
+    "definition": "Easier to Ask Forgiveness than Permission",
+    "semantic_signature": {
+      "emotion": "praticidade",
+      "intention": "recomendar",
+      "tone": "idiomático",
+      "intensity": 0.75
+    },
+    "categories": "diretivo"
+  },
+  {
+    "node_id": "pattern_tech_support",
+    "node_type": "ConversationPattern",
+    "description": "Padrão de suporte técnico",
+    "sequence": [
+      {
+        "speech_act": "problem_report",
+        "semantic_role": "user"
+      },
+      {
+        "speech_act": "troubleshooting",
+        "semantic_role": "support"
+      },
+      {
+        "speech_act": "solution_confirmation",
+        "semantic_role": "user"
+      }
+    ],
+    "context_dependencies": [
+      "technical"
+    ]
+  },
+  {
+    "node_id": "word_28615",
+    "node_type": "WordNode",
+    "word": "Ora",
+    "definition": "Interjeição que introduz argumento ou surpresa",
+    "semantic_signature": {
+      "emotion": "ênfase",
+      "intention": "argumentar",
+      "tone": "retórico",
+      "intensity": 0.48
+    },
+    "categories": "estrutural"
+  },
+  {
+    "node_id": "concept_negacao",
+    "node_type": "ConceptNode",
+    "name": "negacao",
+    "description": "Expressão de contradição ou recusa",
+    "category": "logical",
+    "member_count": 15
+  },
+  {
+    "node_id": "context_juridico",
+    "node_type": "ContextNode",
+    "context_type": "domain",
+    "parameters": {
+      "precision_required": true,
+      "formality": 5
+    },
+    "typical_use_count": 12
+  },
+  {
+    "node_id": "word_28617",
+    "node_type": "WordNode",
+    "word": "negar",
+    "definition": "Rejeitar uma afirmação ou proposta",
+    "semantic_signature": {
+      "emotion": "neutralidade",
+      "intention": "corrigir",
+      "tone": "neutro",
+      "intensity": 0.2
+    },
+    "categories": "informacao"
+  },
+  {
+    "node_id": "frame_emotional_response",
+    "node_type": "SemanticFrame",
+    "description": "Resposta a estímulos emocionais",
+    "participants": {
+      "stimulus": "event",
+      "experiencer": "person",
+      "expression": "reaction"
+    },
+    "typical_phrases": [
+      "Oh, que surpresa!",
+      "Não acredito nisso!",
+      "Maravilhoso!"
+    ]
+  },
+  {
+    "node_id": "word_28618",
+    "node_type": "WordNode",
+    "word": "Congratulações",
+    "definition": "Saudação formal de felicitações",
+    "semantic_signature": {
+      "emotion": "alegria",
+      "intention": "cumprimentar",
+      "tone": "solene",
+      "intensity": 0.65
+    },
+    "categories": "interacao"
+  },
+  {
+    "node_id": "concept_instrucao",
+    "node_type": "ConceptNode",
+    "name": "instrucao",
+    "description": "Direcionamento para execução de tarefas",
+    "category": "procedural",
+    "member_count": 27
+  },
+  {
+    "node_id": "context_emergencia",
+    "node_type": "ContextNode",
+    "context_type": "situation",
+    "parameters": {
+      "urgency": "high",
+      "clarity_required": true
+    },
+    "typical_use_count": 9
+  },
+  {
+    "node_id": "word_28622",
+    "node_type": "WordNode",
+    "word": "list slicing",
+    "definition": "Técnica para acessar subconjuntos de listas",
+    "semantic_signature": {
+      "emotion": "eficiência",
+      "intention": "demonstrar",
+      "tone": "conciso",
+      "intensity": 0.5
+    },
+    "categories": "diretivo"
+  },
+  {
+    "node_id": "pattern_formal_greeting",
+    "node_type": "ConversationPattern",
+    "description": "Saudação formal com resposta",
+    "sequence": [
+      {
+        "speech_act": "greeting",
+        "semantic_role": "initiator"
+      },
+      {
+        "speech_act": "greeting_response",
+        "semantic_role": "responder"
+      },
+      {
+        "speech_act": "well_wishing",
+        "semantic_role": "both"
+      }
+    ],
+    "context_dependencies": [
+      "formal"
+    ]
+  },
+  {
+    "node_id": "word_28619",
+    "node_type": "WordNode",
+    "word": "Destarte",
+    "definition": "Conectivo conclusivo erudito",
+    "semantic_signature": {
+      "emotion": "neutralidade",
+      "intention": "sintetizar",
+      "tone": "erudito",
+      "intensity": 0.09
+    },
+    "categories": "estrutural"
+  },
+  {
+    "node_id": "concept_certeza",
+    "node_type": "ConceptNode",
+    "name": "certeza",
+    "description": "Expressão de convicção ou confirmação",
+    "category": "epistemic",
+    "member_count": 14
+  },
+  {
+    "node_id": "context_educacional",
+    "node_type": "ContextNode",
+    "context_type": "domain",
+    "parameters": {
+      "pedagogical_level": "medium",
+      "interactivity": "high"
+    },
+    "typical_use_count": 21
+  },
+  {
+    "node_id": "word_28623",
+    "node_type": "WordNode",
+    "word": "Bem...",
+    "definition": "Partícula de hesitação ou introdução",
+    "semantic_signature": {
+      "emotion": "dúvida",
+      "intention": "pausar",
+      "tone": "hesitante",
+      "intensity": 0.27
+    },
+    "categories": "estrutural"
+  },
+  {
+    "node_id": "frame_decision_making",
+    "node_type": "SemanticFrame",
+    "description": "Processo de tomada de decisão",
+    "participants": {
+      "decision_maker": "agent",
+      "options": "alternatives",
+      "criteria": "evaluation_factors"
+    },
+    "typical_phrases": [
+      "Qual seria a melhor opção?",
+      "Considerando os fatores...",
+      "Vou escolher esta alternativa porque..."
+    ]
+  },
+  {
+    "node_id": "word_28624",
+    "node_type": "WordNode",
+    "word": "Debug",
+    "definition": "Processo de identificar e corrigir erros",
+    "semantic_signature": {
+      "emotion": "persistência",
+      "intention": "resolver",
+      "tone": "analítico",
+      "intensity": 0.7
+    },
+    "categories": "diretivo"
+  },
+  {
+    "node_id": "concept_incerteza",
+    "node_type": "ConceptNode",
+    "name": "incerteza",
+    "description": "Expressão de dúvida ou probabilidade",
+    "category": "epistemic",
+    "member_count": 16
+  },
+  {
+    "node_id": "context_negociacao",
+    "node_type": "ContextNode",
+    "context_type": "situation",
+    "parameters": {
+      "stakes": "high",
+      "flexibility": "medium"
+    },
+    "typical_use_count": 11
+  },
+  {
+    "node_id": "word_28625",
+    "node_type": "WordNode",
+    "word": "Parabéns",
+    "definition": "Expressão de felicitações",
+    "semantic_signature": {
+      "emotion": "alegria",
+      "intention": "felicitar",
+      "tone": "positivo",
+      "intensity": 0.6
+    },
+    "categories": "interacao"
+  },
+  {
+    "node_id": "pattern_emotional_support",
+    "node_type": "ConversationPattern",
+    "description": "Padrão de suporte emocional",
+    "sequence": [
+      {
+        "speech_act": "emotional_disclosure",
+        "semantic_role": "sharer"
+      },
+      {
+        "speech_act": "empathy_expression",
+        "semantic_role": "supporter"
+      },
+      {
+        "speech_act": "reassurance",
+        "semantic_role": "supporter"
+      }
+    ],
+    "context_dependencies": [
+      "personal"
+    ]
+  },
+  {
+    "node_id": "word_28626",
+    "node_type": "WordNode",
+    "word": "Ahá!",
+    "definition": "Interjeição de descoberta ou triunfo",
+    "semantic_signature": {
+      "emotion": "triunfo",
+      "intention": "revelar",
+      "tone": "jubiloso",
+      "intensity": 0.68
+    },
+    "categories": "emocao"
+  },
+  {
+    "node_id": "word_28627",
+    "node_type": "WordNode",
+    "word": "configurar",
+    "definition": "Ação de ajustar parâmetros ou opções",
+    "semantic_signature": {
+      "emotion": "neutralidade",
+      "intention": "orientar",
+      "tone": "neutro",
+      "intensity": 0.2
+    },
+    "categories": "diretivo"
+  },
+  {
+    "node_id": "word_28628",
+    "node_type": "WordNode",
+    "word": "Alvíssaras!",
+    "definition": "Expressão de alegria por boa notícia",
+    "semantic_signature": {
+      "emotion": "júbilo",
+      "intention": "felicitar",
+      "tone": "festivo",
+      "intensity": 0.78
+    },
+    "categories": "emocao"
+  },
+  {
+    "node_id": "word_28629",
+    "node_type": "WordNode",
+    "word": "flake8",
+    "definition": "Ferramenta para análise estática de código",
+    "semantic_signature": {
+      "emotion": "rigor",
+      "intention": "padronizar",
+      "tone": "analítico",
+      "intensity": 0.8
+    },
+    "categories": "diretivo"
+  },
+  {
+    "node_id": "word_28630",
+    "node_type": "WordNode",
+    "word": "Inacreditável",
+    "definition": "Expressão de espanto ou descrença",
+    "semantic_signature": {
+      "emotion": "surpresa",
+      "intention": "questionar",
+      "tone": "admirado",
+      "intensity": 0.75
+    },
+    "categories": "emocao"
+  },
+  {
+    "node_id": "word_28631",
+    "node_type": "WordNode",
+    "word": "singleton",
+    "definition": "Padrão que garante uma única instância de classe",
+    "semantic_signature": {
+      "emotion": "controle",
+      "intention": "restringir",
+      "tone": "preciso",
+      "intensity": 0.8
+    },
+    "categories": "diretivo"
+  },
+  {
+    "node_id": "word_28632",
+    "node_type": "WordNode",
+    "word": "Né?",
+    "definition": "Partícula confirmatória informal",
+    "semantic_signature": {
+      "emotion": "expectativa",
+      "intention": "validar",
+      "tone": "coloquial",
+      "intensity": 0.25
+    },
+    "categories": "interacao"
+  },
+  {
+    "node_id": "word_28633",
+    "node_type": "WordNode",
+    "word": "variável",
+    "definition": "Armazenamento nomeado para dados em um programa",
+    "semantic_signature": {
+      "emotion": "neutralidade",
+      "intention": "explicar",
+      "tone": "técnico",
+      "intensity": 0.2
+    },
+    "categories": "informacao"
+  },
+  {
+    "node_id": "word_28634",
+    "node_type": "WordNode",
+    "word": "Todavia",
+    "definition": "Conjunção adversativa formal",
+    "semantic_signature": {
+      "emotion": "neutralidade",
+      "intention": "refutar",
+      "tone": "erudito",
+      "intensity": 0.1
+    },
+    "categories": "estrutural"
+  },
+  {
+    "node_id": "word_28635",
+    "node_type": "WordNode",
+    "word": "EAFP",
+    "definition": "Easier to Ask Forgiveness than Permission",
+    "semantic_signature": {
+      "emotion": "praticidade",
+      "intention": "recomendar",
+      "tone": "idiomático",
+      "intensity": 0.75
+    },
+    "categories": "diretivo"
+  },
+  {
+    "node_id": "word_28636",
+    "node_type": "WordNode",
+    "word": "Ora",
+    "definition": "Interjeição que introduz argumento ou surpresa",
+    "semantic_signature": {
+      "emotion": "ênfase",
+      "intention": "argumentar",
+      "tone": "retórico",
+      "intensity": 0.48
+    },
+    "categories": "estrutural"
+  },
+  {
+    "node_id": "word_28637",
+    "node_type": "WordNode",
+    "word": "negar",
+    "definition": "Rejeitar uma afirmação ou proposta",
+    "semantic_signature": {
+      "emotion": "neutralidade",
+      "intention": "corrigir",
+      "tone": "neutro",
+      "intensity": 0.2
+    },
+    "categories": "informacao"
+  },
+  {
+    "node_id": "word_28638",
+    "node_type": "WordNode",
+    "word": "Congratulações",
+    "definition": "Saudação formal de felicitações",
+    "semantic_signature": {
+      "emotion": "alegria",
+      "intention": "cumprimentar",
+      "tone": "solene",
+      "intensity": 0.65
+    },
+    "categories": "interacao"
+  },
+  {
+    "node_id": "word_28639",
+    "node_type": "WordNode",
+    "word": "list slicing",
+    "definition": "Técnica para acessar subconjuntos de listas",
+    "semantic_signature": {
+      "emotion": "eficiência",
+      "intention": "demonstrar",
+      "tone": "conciso",
+      "intensity": 0.5
+    },
+    "categories": "diretivo"
+  },
+  {
+    "node_id": "word_28640",
+    "node_type": "WordNode",
+    "word": "Destarte",
+    "definition": "Conectivo conclusivo erudito",
+    "semantic_signature": {
+      "emotion": "neutralidade",
+      "intention": "sintetizar",
+      "tone": "erudito",
+      "intensity": 0.09
+    },
+    "categories": "estrutural"
+  },
+  {
+    "node_id": "word_28641",
+    "node_type": "WordNode",
+    "word": "Bem...",
+    "definition": "Partícula de hesitação ou introdução",
+    "semantic_signature": {
+      "emotion": "dúvida",
+      "intention": "pausar",
+      "tone": "hesitante",
+      "intensity": 0.27
+    },
+    "categories": "estrutural"
+  },
+  {
+    "node_id": "word_28642",
+    "node_type": "WordNode",
+    "word": "Debug",
+    "definition": "Processo de identificar e corrigir erros",
+    "semantic_signature": {
+      "emotion": "persistência",
+      "intention": "resolver",
+      "tone": "analítico",
+      "intensity": 0.7
+    },
+    "categories": "diretivo"
+  },
+  {
+    "node_id": "word_28643",
+    "node_type": "WordNode",
+    "word": "Parabéns",
+    "definition": "Expressão de felicitações",
+    "semantic_signature": {
+      "emotion": "alegria",
+      "intention": "felicitar",
+      "tone": "positivo",
+      "intensity": 0.6
+    },
+    "categories": "interacao"
+  },
+  {
+    "node_id": "word_28644",
+    "node_type": "WordNode",
+    "word": "Olá",
+    "definition": "Saudação inicial padrão",
+    "semantic_signature": {
+      "emotion": "neutralidade",
+      "intention": "cumprimentar",
+      "tone": "neutro",
+      "intensity": 0.1
+    },
+    "categories": "interacao"
+  },
+  {
+    "node_id": "word_28645",
+    "node_type": "WordNode",
+    "word": "Como vai?",
+    "definition": "Pergunta sobre o estado da pessoa",
+    "semantic_signature": {
+      "emotion": "interesse",
+      "intention": "perguntar",
+      "tone": "cordial",
+      "intensity": 0.3
+    },
+    "categories": "interacao"
+  },
+  {
+    "node_id": "word_28646",
+    "node_type": "WordNode",
+    "word": "Por favor",
+    "definition": "Expressão de cortesia em pedidos",
+    "semantic_signature": {
+      "emotion": "respeito",
+      "intention": "solicitar",
+      "tone": "educado",
+      "intensity": 0.4
+    },
+    "categories": "interacao"
+  },
+  {
+    "node_id": "word_28647",
+    "node_type": "WordNode",
+    "word": "Entendi",
+    "definition": "Confirmação de compreensão",
+    "semantic_signature": {
+      "emotion": "compreensão",
+      "intention": "confirmar",
+      "tone": "neutro",
+      "intensity": 0.2
+    },
+    "categories": "interacao"
+  },
+  {
+    "node_id": "word_28648",
+    "node_type": "WordNode",
+    "word": "Pode repetir?",
+    "definition": "Pedido de reiteração",
+    "semantic_signature": {
+      "emotion": "dúvida",
+      "intention": "esclarecer",
+      "tone": "solicitante",
+      "intensity": 0.35
+    },
+    "categories": "interacao"
+  },
+  {
+    "node_id": "concept_saudacoes",
+    "node_type": "ConceptNode",
+    "name": "saudacoes",
+    "description": "Expressões iniciais de contato",
+    "category": "social",
+    "member_count": 15
+  },
+  {
+    "node_id": "concept_confirmacao",
+    "node_type": "ConceptNode",
+    "name": "confirmacao",
+    "description": "Expressões de verificação e assentimento",
+    "category": "dialogic",
+    "member_count": 12
+  },
+  {
+    "node_id": "context_chat_informal",
+    "node_type": "ContextNode",
+    "context_type": "digital",
+    "parameters": {
+      "platform": "chat",
+      "formality": 1,
+      "response_speed": "fast"
+    },
+    "typical_use_count": 32
+  },
+  {
+    "node_id": "frame_saudacao_inicial",
+    "node_type": "SemanticFrame",
+    "description": "Estrutura para iniciar conversas",
+    "participants": {
+      "saudador": "initiator",
+      "saudado": "responder"
+    },
+    "typical_phrases": [
+      "Olá, tudo bem?",
+      "Oi, como você está?",
+      "Bom dia!"
+    ]
+  },
+  {
+    "node_id": "pattern_cumprimento_resposta",
+    "node_type": "ConversationPattern",
+    "description": "Padrão de cumprimento e resposta",
+    "sequence": [
+      {
+        "speech_act": "greeting",
+        "semantic_role": "A"
+      },
+      {
+        "speech_act": "greeting_response",
+        "semantic_role": "B"
+      },
+      {
+        "speech_act": "well_being_inquiry",
+        "semantic_role": "A"
+      },
+      {
+        "speech_act": "well_being_response",
+        "semantic_role": "B"
+      }
+    ],
+    "variations": 4
+  },
+  {
+    "node_id": "word_28649",
+    "node_type": "WordNode",
+    "word": "Desculpe",
+    "definition": "Expressão de arrependimento ou para chamar atenção",
+    "semantic_signature": {
+      "emotion": "remorso",
+      "intention": "apologizar",
+      "tone": "contrito",
+      "intensity": 0.45
+    },
+    "categories": "interacao"
+  },
+  {
+    "node_id": "word_28650",
+    "node_type": "WordNode",
+    "word": "Obrigado",
+    "definition": "Expressão de gratidão",
+    "semantic_signature": {
+      "emotion": "gratidão",
+      "intention": "agradecer",
+      "tone": "cortês",
+      "intensity": 0.5
+    },
+    "categories": "interacao"
+  },
+  {
+    "node_id": "word_28651",
+    "node_type": "WordNode",
+    "word": "De nada",
+    "definition": "Resposta a agradecimento",
+    "semantic_signature": {
+      "emotion": "modéstia",
+      "intention": "responder",
+      "tone": "gentil",
+      "intensity": 0.3
+    },
+    "categories": "interacao"
+  },
+  {
+    "node_id": "word_28652",
+    "node_type": "WordNode",
+    "word": "Concordo",
+    "definition": "Expressão de concordância",
+    "semantic_signature": {
+      "emotion": "alinhamento",
+      "intention": "apoiar",
+      "tone": "positivo",
+      "intensity": 0.4
+    },
+    "categories": "interacao"
+  },
+  {
+    "node_id": "word_28653",
+    "node_type": "WordNode",
+    "word": "Discordo",
+    "definition": "Expressão de discordância",
+    "semantic_signature": {
+      "emotion": "oposição",
+      "intention": "contestar",
+      "tone": "assertivo",
+      "intensity": 0.55
+    },
+    "categories": "interacao"
+  },
+  {
+    "node_id": "concept_agradecimento",
+    "node_type": "ConceptNode",
+    "name": "agradecimento",
+    "description": "Expressões de gratidão e reconhecimento",
+    "category": "social",
+    "member_count": 8
+  },
+  {
+    "node_id": "concept_discordancia",
+    "node_type": "ConceptNode",
+    "name": "discordancia",
+    "description": "Expressões de divergência de opinião",
+    "category": "argumentative",
+    "member_count": 7
+  },
+  {
+    "node_id": "context_debate",
+    "node_type": "ContextNode",
+    "context_type": "situation",
+    "parameters": {
+      "formality": 3,
+      "argument_intensity": "high",
+      "turn_taking": "regulated"
+    },
+    "typical_use_count": 18
+  },
+  {
+    "node_id": "frame_troca_agradecimentos",
+    "node_type": "SemanticFrame",
+    "description": "Estrutura para troca de agradecimentos",
+    "participants": {
+      "agradecedor": "grateful_party",
+      "receptor": "receiving_party"
+    },
+    "typical_phrases": [
+      "Muito obrigado!",
+      "De nada, fico feliz em ajudar.",
+      "Agradeço imensamente."
+    ]
+  },
+  {
+    "node_id": "pattern_expressao_desacordo",
+    "node_type": "ConversationPattern",
+    "description": "Padrão para expressar discordância educada",
+    "sequence": [
+      {
+        "speech_act": "acknowledgment",
+        "semantic_role": "listener"
+      },
+      {
+        "speech_act": "soft_disagreement",
+        "semantic_role": "listener"
+      },
+      {
+        "speech_act": "alternative_view",
+        "semantic_role": "listener"
+      }
+    ],
+    "context_dependencies": [
+      "formal",
+      "professional"
+    ]
+  },
+  {
+    "node_id": "word_28654",
+    "node_type": "WordNode",
+    "word": "Aham",
+    "definition": "Marcador de escuta ativa",
+    "semantic_signature": {
+      "emotion": "atenção",
+      "intention": "encorajar",
+      "tone": "neutro",
+      "intensity": 0.15
+    },
+    "categories": "interacao"
+  },
+  {
+    "node_id": "word_28655",
+    "node_type": "WordNode",
+    "word": "Então...",
+    "definition": "Marcador discursivo de transição",
+    "semantic_signature": {
+      "emotion": "neutralidade",
+      "intention": "transicionar",
+      "tone": "pensativo",
+      "intensity": 0.2
+    },
+    "categories": "estrutural"
+  },
+  {
+    "node_id": "word_28656",
+    "node_type": "WordNode",
+    "word": "Quer dizer",
+    "definition": "Introdução de reformulação",
+    "semantic_signature": {
+      "emotion": "clarificação",
+      "intention": "reformular",
+      "tone": "explicativo",
+      "intensity": 0.3
+    },
+    "categories": "estrutural"
+  },
+  {
+    "node_id": "word_28657",
+    "node_type": "WordNode",
+    "word": "Aliás",
+    "definition": "Introdução de informação adicional",
+    "semantic_signature": {
+      "emotion": "neutralidade",
+      "intention": "adicionar",
+      "tone": "informal",
+      "intensity": 0.25
+    },
+    "categories": "estrutural"
+  },
+  {
+    "node_id": "word_28658",
+    "node_type": "WordNode",
+    "word": "Tipo",
+    "definition": "Marcador de exemplificação informal",
+    "semantic_signature": {
+      "emotion": "aproximação",
+      "intention": "exemplificar",
+      "tone": "coloquial",
+      "intensity": 0.1
+    },
+    "categories": "estrutural"
+  },
+  {
+    "node_id": "concept_marcadores",
+    "node_type": "ConceptNode",
+    "name": "marcadores_discursivos",
+    "description": "Elementos que organizam o fluxo conversacional",
+    "category": "linguistic",
+    "member_count": 14
+  },
+  {
+    "node_id": "context_entrevista",
+    "node_type": "ContextNode",
+    "context_type": "situation",
+    "parameters": {
+      "asymmetry": "high",
+      "purpose": "information_gathering",
+      "formality": 4
+    },
+    "typical_use_count": 9
+  },
+  {
+    "node_id": "frame_esclarecimento",
+    "node_type": "SemanticFrame",
+    "description": "Estrutura para pedir e dar esclarecimentos",
+    "participants": {
+      "questioner": "information_seeker",
+      "clarifier": "information_provider"
+    },
+    "typical_phrases": [
+      "Pode explicar melhor?",
+      "Quer dizer que...",
+      "Meu entendimento é que..."
+    ]
+  },
+  {
+    "node_id": "pattern_esclarecimento",
+    "node_type": "ConversationPattern",
+    "description": "Padrão para solicitação de esclarecimento",
+    "sequence": [
+      {
+        "speech_act": "initial_statement",
+        "semantic_role": "speaker"
+      },
+      {
+        "speech_act": "clarification_request",
+        "semantic_role": "listener"
+      },
+      {
+        "speech_act": "reformulation",
+        "semantic_role": "speaker"
+      },
+      {
+        "speech_act": "confirmation",
+        "semantic_role": "listener"
+      }
+    ],
+    "variations": 3
+  },
+  {
+    "node_id": "word_28659",
+    "node_type": "WordNode",
+    "word": "Incrível!",
+    "definition": "Expressão de admiração",
+    "semantic_signature": {
+      "emotion": "admiração",
+      "intention": "elogiar",
+      "tone": "entusiasmado",
+      "intensity": 0.75
+    },
+    "categories": "emocao"
+  },
+  {
+    "node_id": "word_28660",
+    "node_type": "WordNode",
+    "word": "Sério?",
+    "definition": "Expressão de surpresa ou ceticismo",
+    "semantic_signature": {
+      "emotion": "surpresa",
+      "intention": "verificar",
+      "tone": "duvidoso",
+      "intensity": 0.5
+    },
+    "categories": "interacao"
+  },
+  {
+    "node_id": "word_28661",
+    "node_type": "WordNode",
+    "word": "Que pena",
+    "definition": "Expressão de decepção ou compaixão",
+    "semantic_signature": {
+      "emotion": "tristeza",
+      "intention": "consolar",
+      "tone": "solidário",
+      "intensity": 0.6
+    },
+    "categories": "emocao"
+  },
+  {
+    "node_id": "word_28662",
+    "node_type": "WordNode",
+    "word": "Nossa!",
+    "definition": "Interjeição de surpresa",
+    "semantic_signature": {
+      "emotion": "espanto",
+      "intention": "expressar",
+      "tone": "exclamativo",
+      "intensity": 0.65
+    },
+    "categories": "emocao"
+  },
+  {
+    "node_id": "word_28663",
+    "node_type": "WordNode",
+    "word": "Caramba",
+    "definition": "Expressão de surpresa ou frustração",
+    "semantic_signature": {
+      "emotion": "impacto",
+      "intention": "reagir",
+      "tone": "informal",
+      "intensity": 0.55
+    },
+    "categories": "emocao"
+  },
+  {
+    "node_id": "concept_reacoes",
+    "node_type": "ConceptNode",
+    "name": "reacoes_emocionais",
+    "description": "Expressões de resposta emocional imediata",
+    "category": "affective",
+    "member_count": 10
+  },
+  {
+    "node_id": "context_conversa_cotidiana",
+    "node_type": "ContextNode",
+    "context_type": "situation",
+    "parameters": {
+      "spontaneity": "high",
+      "topics": "varied",
+      "formality": 2
+    },
+    "typical_use_count": 45
+  },
+  {
+    "node_id": "frame_reacao_emocional",
+    "node_type": "SemanticFrame",
+    "description": "Estrutura para expressão e resposta a emoções",
+    "participants": {
+      "emoter": "experiencer",
+      "responder": "witness",
+      "trigger": "event"
+    },
+    "typical_phrases": [
+      "Nossa, que notícia incrível!",
+      "Sério? Isso é surpreendente!",
+      "Puxa, sinto muito por isso."
+    ]
+  },
+  {
+    "node_id": "pattern_compassion_response",
+    "node_type": "ConversationPattern",
+    "description": "Padrão para resposta a situações difíceis",
+    "sequence": [
+      {
+        "speech_act": "problem_disclosure",
+        "semantic_role": "sharer"
+      },
+      {
+        "speech_act": "empathy_expression",
+        "semantic_role": "listener"
+      },
+      {
+        "speech_act": "support_offer",
+        "semantic_role": "listener"
+      }
+    ],
+    "context_dependencies": [
+      "personal",
+      "emotional"
+    ]
+  },
+  {
+    "node_id": "word_28664",
+    "node_type": "WordNode",
+    "word": "A propósito",
+    "definition": "Introdução de tópico relacionado",
+    "semantic_signature": {
+      "emotion": "neutralidade",
+      "intention": "redirecionar",
+      "tone": "neutro",
+      "intensity": 0.2
+    },
+    "categories": "estrutural"
+  },
+  {
+    "node_id": "word_28665",
+    "node_type": "WordNode",
+    "word": "Voltando ao assunto",
+    "definition": "Retomada de tópico anterior",
+    "semantic_signature": {
+      "emotion": "foco",
+      "intention": "retomar",
+      "tone": "direto",
+      "intensity": 0.3
+    },
+    "categories": "estrutural"
+  },
+  {
+    "node_id": "word_28666",
+    "node_type": "WordNode",
+    "word": "Resumindo",
+    "definition": "Introdução de síntese",
+    "semantic_signature": {
+      "emotion": "concisão",
+      "intention": "sintetizar",
+      "tone": "conclusivo",
+      "intensity": 0.4
+    },
+    "categories": "estrutural"
+  },
+  {
+    "node_id": "word_28667",
+    "node_type": "WordNode",
+    "word": "Enfim",
+    "definition": "Marcador de conclusão ou mudança de tópico",
+    "semantic_signature": {
+      "emotion": "resolução",
+      "intention": "finalizar",
+      "tone": "neutro",
+      "intensity": 0.25
+    },
+    "categories": "estrutural"
+  },
+  {
+    "node_id": "word_28668",
+    "node_type": "WordNode",
+    "word": "Assim",
+    "definition": "Conectivo explicativo",
+    "semantic_signature": {
+      "emotion": "explicação",
+      "intention": "exemplificar",
+      "tone": "expositivo",
+      "intensity": 0.2
+    },
+    "categories": "estrutural"
+  }
+]
