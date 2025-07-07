@@ -6,7 +6,7 @@ import pyarrow as pa
 import pyarrow.parquet as pq
 import requests
 from datetime import datetime
-from typing import Tuple, Dict, List, Optional
+from typing import Tuple, Dict, List, Optional, Any
 from jsonschema import validate, ValidationError
 from jsonschema.exceptions import best_match
 
@@ -75,7 +75,7 @@ def gerar_log_campo(item: dict, campo: str, subcampo: str = "") -> dict:
     return {
         "campo": caminho,
         "valor": valor,
-        "tipo": type(valor).__name__,
+        "tipo": type(valor).__name__ if valor is not None else "NoneType",
         "status": "presente" if valor is not None else "ausente"
     }
 
@@ -469,9 +469,10 @@ def main():
         with open(SCHEMA_PATH, "r", encoding="utf-8") as f:
             schema = carregador(f)
         
-        # Inicializar estado global
-        SCHEMA_STATE["dynamic_enums"] = schema.get("dynamic_enums", {})
-        SCHEMA_STATE["compatibility_matrix"] = schema.get("compatibility_matrix", {})
+        # Inicializar estado global - CORREÇÃO APLICADA AQUI
+        # Mantém a estrutura original e apenas atualiza as matrizes
+        if "compatibility_matrix" in schema:
+            SCHEMA_STATE["compatibility_matrix"] = schema["compatibility_matrix"]
         
         # Configurar fontes externas
         fontes_externas = schema.get("x-external-sources", [])
