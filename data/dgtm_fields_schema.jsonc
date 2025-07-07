@@ -57,6 +57,19 @@
         }
       },
       "required": ["term_id"]
+    },
+    
+    "semantic_relation": {
+      "type": "object",
+      "properties": {
+        "related_term": {"type": "string", "format": "uuid"},
+        "relation_type": {
+          "type": "string",
+          "enum": ["hypernym", "hyponym", "meronym", "holonym", "antonym"]
+        },
+        "strength": {"type": "number", "minimum": 0, "maximum": 1}
+      },
+      "required": ["related_term", "relation_type"]
     }
   },
 
@@ -112,6 +125,11 @@
         "value": {"type": "string"},
         "certainty": {"type": "number", "minimum": 0, "maximum": 1}
       }
+    },
+    
+    "semantic_relations": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/semantic_relation"}
     },
     
     "dynamic_enums": {
@@ -234,6 +252,18 @@
       "then": {
         "required": ["canonical_form"]
       }
+    },
+    {
+      "if": {
+        "properties": {
+          "usage_context": {
+            "properties": {"domain": {"const": "technical"}}
+          }
+        }
+      },
+      "then": {
+        "required": ["intention", "semantic_evolution"]
+      }
     }
   ],
 
@@ -250,11 +280,22 @@
     {
       "domain": "literary",
       "emotion_intensity_min": 0.7
+    },
+    {
+      "domain": "medical",
+      "required_fields": ["canonical_form"]
     }
   ],
 
   "x-system-config": {
     "auto_generate_ids": true,
-    "allow_homographs": true
+    "allow_homographs": true,
+    "enable_cross_reference_validation": true
+  },
+
+  "x-metadata": {
+    "author": "DGTM Semantic Team",
+    "created": "2024-01-15",
+    "last_modified": "2025-07-08"
   }
 }
